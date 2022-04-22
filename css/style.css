@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+     font-family: Arial, sans-serif;
+}
+.fs-14 {
+    font-size: 14px;
+}
+.nav-item .sub-menu {
+    display: none;
+}
+.nav-item:hover > ul {
+    display: block;
+}
+.nav-item .nav-link {
+    color: #000;
+}
+.nav-item .nav-link:hover {
+     color: #f12930;
+     text-decoration: underline;
+ }
+.nav-link.active {
+    color: #f12930;
+}
+.main-menu .nav-item .nav-link {
+    position: relative;
+    cursor: pointer;
+}
+.sub-menu .nav-item {
+    font-weight: normal;
+    border: 1px solid #dee2e6;
+    border-top: unset;
+}
+.sub-menu {
+    position: absolute;
+}
+.fa-solid {
+    color: black;
+}
